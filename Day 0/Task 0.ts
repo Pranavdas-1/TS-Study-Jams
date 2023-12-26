@@ -5,7 +5,6 @@ function registerUser (name:string,birthYear:number){
    else{
     console.log(name+" Registration Failed!")
    }
-
 }
 function checkAge(birthYear:number){
     if(birthYear<=2005)
@@ -14,3 +13,4 @@ function checkAge(birthYear:number){
         return false
 }
 registerUser("Pranav",2000)
+//  OUTPUT:"Pranav Registration Success!" 
